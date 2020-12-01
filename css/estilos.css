@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #292929;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#main {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.evento {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    max-width: 500px;
+    margin-bottom: .5em;
+    box-shadow:
+    0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+    0 3.3px 2.6px rgba(0, 0, 0, 0.048);
+}
+
+.evento > img {
+    width: 99%;
+    max-height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.evento > p {
+    padding: .3em;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#lancamentos {
+    height: 12em;
+    overflow-y: scroll;
+}
+
+.lancamento {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    max-width: 500px;
+    padding: .3em;
+    margin-bottom: .3em;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+#menu {
+    margin: 1em 0 1em 0;
+    padding: .3em;
+    width: 99%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3px;
+    box-shadow:
+    0 1.4px 1.1px rgba(0, 0, 0, 0.034),
+    0 3.3px 2.6px rgba(0, 0, 0, 0.048),
+    0 6px 5px rgba(0, 0, 0, 0.06),
+    0 11px 9px rgba(0, 0, 0, 0.072);
+}
+
+hr {
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    margin: .5em 0 .5em 0;
+}
+
+.header > p {
+    font-size: .8em;
+}
+
+a.gflag {vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-repeat;}
+        a.gflag img {border:0;}
+        #goog-gt-tt {display:none !important;}
+        .goog-te-banner-frame {display:none !important;}
+        .goog-te-menu-value:hover {text-decoration:none !important;}
+        body {top:0 !important;}
+        #google_translate_element2 {display:none!important;}
+        #lang {
+            display: none;
+        }
+        #description {
+            text-align: center;
+        }
