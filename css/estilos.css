@@ -22,6 +22,7 @@ body {
 .header {
     width: 100%;
     max-width: 500px;
+    margin-top: .5em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -106,6 +107,10 @@ h2 {
 
 .header > p {
     font-size: .8em;
+}
+
+footer {
+    margin-bottom: .5em;
 }
 
 a.gflag {vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-repeat;}
