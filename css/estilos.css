@@ -47,11 +47,12 @@ body {
 }
 
 .evento > p {
-    padding: .3em;
+    padding: .8em;
 }
 
 .links {
     display: flex;
+    padding: .3em;
     justify-content: space-around;
 }
 
