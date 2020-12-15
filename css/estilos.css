@@ -3,6 +3,7 @@
     padding: 0px;
     color: #292929;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -37,17 +38,18 @@ body {
     box-shadow:
     0 1.4px 1.1px rgba(0, 0, 0, 0.034),
     0 3.3px 2.6px rgba(0, 0, 0, 0.048);
+    text-align: justify;
 }
 
 .evento > img {
-    width: 99%;
+    width: 100%;
     max-height: 100px;
     object-fit: cover;
     object-position: center;
 }
 
 .evento > p {
-    padding: .8em;
+    padding: 1.3em;
 }
 
 .links {
@@ -67,6 +69,7 @@ body {
     max-width: 500px;
     padding: .3em;
     margin-bottom: .3em;
+    text-align: justify;
 }
 
 a {
@@ -84,7 +87,7 @@ h1 {
 
 #menu {
     margin: 1em 0 1em 0;
-    padding: .3em;
+    padding: .5em;
     width: 99%;
     max-width: 500px;
     display: flex;
@@ -107,6 +110,7 @@ h2 {
 }
 
 .header > p {
+    text-align: right;
     font-size: .8em;
 }
 
@@ -114,16 +118,12 @@ footer {
     margin-bottom: .5em;
 }
 
-a.gflag {vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-repeat;}
-        a.gflag img {border:0;}
-        #goog-gt-tt {display:none !important;}
-        .goog-te-banner-frame {display:none !important;}
-        .goog-te-menu-value:hover {text-decoration:none !important;}
-        body {top:0 !important;}
-        #google_translate_element2 {display:none!important;}
-        #lang {
-            display: none;
-        }
-        #description {
-            text-align: center;
-        }
+#iconeNacao, #iconeAgencia {
+  width: 25px;
+}
+
+.icones {
+  margin: .1em 0 .1em 0;
+  display: flex;
+  justify-content: center;
+}
